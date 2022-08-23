@@ -69,10 +69,9 @@ function App() {
         }}
       >
         <h1>Search for a string path in object/array</h1>
-        {/* <code>{arr}</code> */}
         <blockquote>
           <pre>
-            <code>{arr.toString()}</code>
+            <code>{JSON.stringify(arr)}</code>
           </pre>
         </blockquote>
         <input
